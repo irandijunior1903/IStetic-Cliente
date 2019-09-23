@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+    <ImageButton
+        android:id="@+id/cadastrarFornecedor"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/botaomenu"
+        android:foreground="@drawable/user"
+        android:foregroundGravity="clip_horizontal|clip_vertical|fill"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24"
+        android:onClick="cadastrarFornecedor"/>
+
+    <ImageButton
+        android:id="@+id/visualizarEstabelecimento"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/botaomenu"
+        android:foreground="@drawable/store"
+        android:foregroundGravity="clip_horizontal|clip_vertical|fill"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/visualizaFornecedor"
+        app:layout_constraintVertical_bias="0.136" />
+
+    <ImageButton
+        android:id="@+id/visualizarFornecedor"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/botaomenu"
+        android:foreground="@drawable/phonebook"
+        android:foregroundGravity="clip_horizontal|clip_vertical|fill"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.559"
+        app:layout_constraintStart_toEndOf="@+id/cadastrarFornecedor"
+        app:layout_constraintTop_toTopOf="@+id/cadastrarFornecedor" />
+
+    <TextView
+        android:id="@+id/visualizaEstabelecimento"
+        android:layout_width="165dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="VISUALIZAR ESTABELECIMENTOS"
+        android:textColor="#425BB4"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/open_sans"
+        app:layout_constraintEnd_toEndOf="@+id/visualizarEstabelecimento"
+        app:layout_constraintStart_toStartOf="@+id/visualizarEstabelecimento"
+        app:layout_constraintTop_toBottomOf="@+id/visualizarEstabelecimento"
+        tools:text="VISUALIZAR\nESTABELECIMENTOS" />
+
+    <TextView
+        android:id="@+id/cadastroFornecedor"
+        android:layout_width="165dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="CADASTRAR FORNECEDOR"
+        android:textColor="#425BB4"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/open_sans"
+        app:layout_constraintBottom_toBottomOf="@+id/visualizaFornecedor"
+        app:layout_constraintEnd_toEndOf="@+id/cadastrarFornecedor"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/cadastrarFornecedor"
+        app:layout_constraintTop_toTopOf="@+id/visualizaFornecedor"
+        tools:text="CADASTRAR\nFORNECEDOR" />
+
+    <TextView
+        android:id="@+id/visualizaFornecedor"
+        android:layout_width="165dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="VISUALIZAR FORNECEDORES"
+        android:textColor="#425BB4"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/open_sans"
+        app:layout_constraintEnd_toEndOf="@+id/visualizarFornecedor"
+        app:layout_constraintStart_toStartOf="@+id/visualizarFornecedor"
+        app:layout_constraintTop_toBottomOf="@+id/visualizarFornecedor"
+        tools:text="VISUALIZAR\nFORNECEDORES" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

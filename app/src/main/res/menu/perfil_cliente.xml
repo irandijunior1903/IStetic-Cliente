@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/agendar"
+        android:title="Agendamento"
+        app:showAsAction="always" >
+    <menu>
+        <item
+            android:id="@+id/novoAgendamento"
+            android:title="Agendar"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/verAgendamentos"
+            android:title="Ver Agendamentos"
+            app:showAsAction="ifRoom" />
+    </menu>
+    </item>
+    <item
+        android:id="@+id/botaodebusca"
+        android:title="Buscar"
+        app:showAsAction="always" >
+        <menu>
+            <item
+                android:id="@+id/buscarServicos"
+                android:title="Serviços"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/buscarEstabelecimentos"
+                android:title="Estabelecimentos"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/botaodeacao"
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/botaodesair"
+                android:title="Sair"
+                app:showAsAction="ifRoom"/>
+
+        </menu>
+    </item>
+</menu>

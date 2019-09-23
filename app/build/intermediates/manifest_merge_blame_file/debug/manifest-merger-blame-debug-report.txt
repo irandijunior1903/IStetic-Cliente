@@ -1,0 +1,258 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ufpb.br.trigger.istetic"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml
+10
+11    <!--
+12         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+13         Google Maps Android API v2, but you must specify either coarse or fine
+14         location permissions for the 'MyLocation' functionality.
+15    -->
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:11:5-79
+16-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:11:22-76
+17
+18    <!-- Include required permissions for Google Maps API to run. -->
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\1fcdcacc43787ff1e43648ee69f912ba\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:5-79
+19-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\1fcdcacc43787ff1e43648ee69f912ba\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:22-76
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\1fcdcacc43787ff1e43648ee69f912ba\jetified-play-services-maps-16.1.0\AndroidManifest.xml:24:5-67
+20-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\1fcdcacc43787ff1e43648ee69f912ba\jetified-play-services-maps-16.1.0\AndroidManifest.xml:24:22-64
+21
+22    <uses-feature
+22-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\1fcdcacc43787ff1e43648ee69f912ba\jetified-play-services-maps-16.1.0\AndroidManifest.xml:26:5-28:35
+23        android:glEsVersion="0x00020000"
+23-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\1fcdcacc43787ff1e43648ee69f912ba\jetified-play-services-maps-16.1.0\AndroidManifest.xml:27:9-41
+24        android:required="true" />
+24-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\1fcdcacc43787ff1e43648ee69f912ba\jetified-play-services-maps-16.1.0\AndroidManifest.xml:28:9-32
+25
+26    <application
+26-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:13:5-110:19
+27        android:allowBackup="true"
+27-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:14:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.0.0] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\2ffb88316df49107418be0872d7babe4\core-1.0.0\AndroidManifest.xml:22:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:15:9-43
+31        android:label="@string/app_name"
+31-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:16:9-41
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:17:9-54
+33        android:supportsRtl="true"
+33-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:18:9-35
+34        android:testOnly="true"
+35        android:theme="@style/AppTheme" >
+35-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:19:9-40
+36
+37        <!--
+38             The API key for Google Maps-based APIs is defined as a string resource.
+39             (See the file "res/values/google_maps_api.xml").
+40             Note that the API key is linked to the encryption key used to sign the APK.
+41             You need a different API key for each encryption key, including the release key that is used to
+42             sign the APK for publishing.
+43             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+44        -->
+45        <meta-data
+45-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:30:9-32:55
+46            android:name="com.google.android.geo.API_KEY"
+46-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:31:13-58
+47            android:value="@string/google_maps_key" />
+47-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:32:13-52
+48
+49        <activity
+49-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:34:9-36:68
+50            android:name="ufpb.br.trigger.istetic.Maps"
+50-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:35:13-33
+51            android:label="@string/title_activity_maps" />
+51-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:36:13-56
+52        <activity
+52-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:37:9-40:59
+53            android:name="ufpb.br.trigger.istetic.PerfilCliente"
+53-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:38:13-42
+54            android:label="@string/title_activity_perfil_cliente"
+54-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:39:13-66
+55            android:theme="@style/AppTheme.NoActionBar" />
+55-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:40:13-56
+56        <activity
+56-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:41:9-44:47
+57            android:name="ufpb.br.trigger.istetic.CadastroFornecedor"
+57-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:42:13-47
+58            android:label="@string/title_activity_cadastro_fornecedor"
+58-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:43:13-71
+59            android:theme="@style/AppTheme" />
+59-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:44:13-44
+60        <activity
+60-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:45:9-47:47
+61            android:name="ufpb.br.trigger.istetic.PesquisarEstabelecimentos"
+61-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:46:13-54
+62            android:theme="@style/AppTheme" />
+62-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:47:13-44
+63        <activity
+63-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:48:9-50:47
+64            android:name="ufpb.br.trigger.istetic.PesquisarServicos"
+64-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:49:13-46
+65            android:theme="@style/AppTheme" />
+65-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:50:13-44
+66        <activity
+66-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:51:9-53:47
+67            android:name="ufpb.br.trigger.istetic.Agendamento1"
+67-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:52:13-41
+68            android:theme="@style/AppTheme" />
+68-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:53:13-44
+69        <activity
+69-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:54:9-56:47
+70            android:name="ufpb.br.trigger.istetic.Agendamento2"
+70-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:55:13-41
+71            android:theme="@style/AppTheme" />
+71-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:56:13-44
+72        <activity
+72-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:57:9-59:47
+73            android:name="ufpb.br.trigger.istetic.AgendamentoDia"
+73-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:58:13-43
+74            android:theme="@style/AppTheme" />
+74-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:59:13-44
+75        <activity
+75-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:60:9-62:47
+76            android:name="ufpb.br.trigger.istetic.AgendamentoHora"
+76-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:61:13-44
+77            android:theme="@style/AppTheme" />
+77-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:62:13-44
+78        <activity
+78-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:63:9-65:47
+79            android:name="ufpb.br.trigger.istetic.AgendamentoConcluido"
+79-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:64:13-49
+80            android:theme="@style/AppTheme" />
+80-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:65:13-44
+81        <activity
+81-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:66:9-68:47
+82            android:name="ufpb.br.trigger.istetic.InformacoesEstabelecimento"
+82-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:67:13-55
+83            android:theme="@style/AppTheme" />
+83-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:68:13-44
+84        <activity
+84-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:69:9-71:47
+85            android:name="ufpb.br.trigger.istetic.ListaAgendamento"
+85-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:70:13-45
+86            android:theme="@style/AppTheme" />
+86-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:71:13-44
+87        <activity
+87-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:72:9-74:47
+88            android:name="ufpb.br.trigger.istetic.EditarDia"
+88-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:73:13-38
+89            android:theme="@style/AppTheme" />
+89-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:74:13-44
+90        <activity
+90-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:75:9-77:47
+91            android:name="ufpb.br.trigger.istetic.EditarHora"
+91-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:76:13-39
+92            android:theme="@style/AppTheme" />
+92-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:77:13-44
+93        <activity
+93-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:78:9-80:47
+94            android:name="ufpb.br.trigger.istetic.AgendamentoRemarcado"
+94-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:79:13-49
+95            android:theme="@style/AppTheme" />
+95-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:80:13-44
+96        <activity
+96-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:81:9-83:49
+97            android:name="ufpb.br.trigger.istetic.CadastrarCliente"
+97-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:82:13-45
+98            android:theme="@style/FullScreen" />
+98-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:83:13-46
+99        <activity
+99-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:84:9-86:49
+100            android:name="ufpb.br.trigger.istetic.BoasVindas1"
+100-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:85:13-40
+101            android:theme="@style/FullScreen" />
+101-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:86:13-46
+102        <activity
+102-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:87:9-89:49
+103            android:name="ufpb.br.trigger.istetic.BoasVindas2"
+103-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:88:13-40
+104            android:theme="@style/FullScreen" />
+104-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:89:13-46
+105        <activity
+105-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:90:9-92:49
+106            android:name="ufpb.br.trigger.istetic.BoasVindas3"
+106-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:91:13-40
+107            android:theme="@style/FullScreen" />
+107-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:92:13-46
+108        <activity
+108-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:93:9-95:59
+109            android:name="ufpb.br.trigger.istetic.TelaInicialAdm"
+109-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:94:13-43
+110            android:theme="@style/AppTheme.NoActionBar" />
+110-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:95:13-56
+111        <activity
+111-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:96:9-98:49
+112            android:name="ufpb.br.trigger.istetic.Login"
+112-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:97:13-34
+113            android:theme="@style/FullScreen" />
+113-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:98:13-46
+114        <activity android:name="ufpb.br.trigger.istetic.Splash" >
+114-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:99:9-105:20
+114-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:99:19-41
+115            <intent-filter>
+115-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:100:13-104:29
+116                <action android:name="android.intent.action.MAIN" />
+116-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:101:17-69
+116-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:101:25-66
+117
+118                <category android:name="android.intent.category.LAUNCHER" />
+118-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:103:17-77
+118-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:103:27-74
+119            </intent-filter>
+120        </activity>
+121
+122        <meta-data
+122-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:107:9-109:57
+123            android:name="preloaded_fonts"
+123-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:108:13-43
+124            android:resource="@array/preloaded_fonts" />
+124-->C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:109:13-54
+125        <!-- Needs to be explicitly declared on P+ -->
+126        <uses-library
+126-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\1fcdcacc43787ff1e43648ee69f912ba\jetified-play-services-maps-16.1.0\AndroidManifest.xml:33:9-35:40
+127            android:name="org.apache.http.legacy"
+127-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\1fcdcacc43787ff1e43648ee69f912ba\jetified-play-services-maps-16.1.0\AndroidManifest.xml:34:13-50
+128            android:required="false" />
+128-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\1fcdcacc43787ff1e43648ee69f912ba\jetified-play-services-maps-16.1.0\AndroidManifest.xml:35:13-37
+129
+130        <activity
+130-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\b1280459280e885bc0f11efcaa7e1b1a\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+131            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+131-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\b1280459280e885bc0f11efcaa7e1b1a\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+132            android:exported="false"
+132-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\b1280459280e885bc0f11efcaa7e1b1a\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+133            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+133-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\b1280459280e885bc0f11efcaa7e1b1a\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+134
+135        <meta-data
+135-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\77dec35a51b4530dcf8089b2147454c3\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+136            android:name="com.google.android.gms.version"
+136-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\77dec35a51b4530dcf8089b2147454c3\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+137            android:value="@integer/google_play_services_version" />
+137-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\77dec35a51b4530dcf8089b2147454c3\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+138
+139        <provider
+139-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+140            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+140-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+141            android:authorities="ufpb.br.trigger.istetic.lifecycle-process"
+141-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+142            android:exported="false"
+142-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+143            android:multiprocess="true" />
+143-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+144    </application>
+145
+146</manifest>

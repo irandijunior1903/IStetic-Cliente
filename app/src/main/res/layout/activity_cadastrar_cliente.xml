@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="109dp"
+            android:layout_height="104dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView17"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/elipse_2" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView10"
+            app:layout_constraintEnd_toEndOf="@+id/imageView10"
+            app:layout_constraintStart_toStartOf="@+id/imageView10"
+            app:layout_constraintTop_toTopOf="@+id/imageView10"
+            app:srcCompat="@drawable/camera" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="97dp"
+            android:layout_height="14dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+            app:layout_constraintBottom_toTopOf="@+id/nome"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView10"
+            app:srcCompat="@drawable/adicione_uma_foto" />
+
+        <EditText
+            android:id="@+id/nome"
+            android:layout_width="340dp"
+            android:layout_height="37dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/botaodetexto"
+            android:hint="Nome*"
+            android:inputType="textPersonName"
+            android:singleLine="true"
+            android:textColor="#425BB4"
+            android:textColorHighlight="#80F1A8F1"
+            android:textColorHint="#60425BB4"
+            app:fontFamily="@font/open_sans"
+            app:layout_constraintBottom_toTopOf="@+id/endereco"
+            app:layout_constraintEnd_toEndOf="@+id/endereco"
+            app:layout_constraintStart_toStartOf="@+id/endereco" />
+
+        <EditText
+            android:id="@+id/endereco"
+            android:layout_width="340dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/botaodetexto"
+            android:hint="Endereço*"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColor="#425BB4"
+            android:textColorHighlight="#80F1A8F1"
+            android:textColorHint="#60425BB4"
+            app:fontFamily="@font/open_sans"
+            app:layout_constraintBottom_toTopOf="@+id/bairro"
+            app:layout_constraintEnd_toEndOf="@+id/emailCliente"
+            app:layout_constraintStart_toStartOf="@+id/emailCliente" />
+
+        <EditText
+            android:id="@+id/bairro"
+            android:layout_width="150dp"
+            android:layout_height="37dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/botaodetexto"
+            android:hint="Bairro*"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColor="#425BB4"
+            android:textColorHighlight="#80F1A8F1"
+            android:textColorHint="#60425BB4"
+            app:fontFamily="@font/open_sans"
+            app:layout_constraintBottom_toTopOf="@+id/cidade"
+            app:layout_constraintEnd_toEndOf="@+id/cidade"
+            app:layout_constraintStart_toStartOf="@+id/cidade" />
+
+        <EditText
+            android:id="@+id/cidade"
+            android:layout_width="150dp"
+            android:layout_height="37dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/botaodetexto"
+            android:hint="Cidade*"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColor="#425BB4"
+            android:textColorHighlight="#80F1A8F1"
+            android:textColorHint="#60425BB4"
+            app:fontFamily="@font/open_sans"
+            app:layout_constraintBottom_toTopOf="@+id/estado"
+            app:layout_constraintEnd_toEndOf="@+id/estado"
+            app:layout_constraintStart_toStartOf="@+id/estado" />
+
+        <EditText
+            android:id="@+id/numero"
+            android:layout_width="150dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/botaodetexto"
+            android:hint="Número*"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textColor="#425BB4"
+            android:textColorHighlight="#80F1A8F1"
+            android:textColorHint="#60425BB4"
+            app:fontFamily="@font/open_sans"
+            app:layout_constraintBottom_toTopOf="@+id/cep"
+            app:layout_constraintEnd_toEndOf="@+id/endereco"
+            app:layout_constraintStart_toEndOf="@+id/bairro" />
+
+        <EditText
+            android:id="@+id/cep"
+            android:layout_width="150dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="61dp"
+            android:background="@drawable/botaodetexto"
+            android:hint="CEP*"
+            android:inputType="textPostalAddress"
+            android:singleLine="true"
+            android:textColor="#425BB4"
+            android:textColorHighlight="#80F1A8F1"
+            android:textColorHint="#60425BB4"
+            app:fontFamily="@font/open_sans"
+            app:layout_constraintBottom_toTopOf="@+id/emailCliente"
+            app:layout_constraintEnd_toEndOf="@+id/numero"
+            app:layout_constraintStart_toEndOf="@+id/cidade" />
+
+        <EditText
+            android:id="@+id/estado"
+            android:layout_width="150dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginEnd="225dp"
+            android:layout_marginRight="225dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/botaodetexto"
+            android:hint="Estado*"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColor="#425BB4"
+            android:textColorHighlight="#80F1A8F1"
+            android:textColorHint="#60425BB4"
+            app:fontFamily="@font/open_sans"
+            app:layout_constraintBottom_toTopOf="@+id/emailCliente"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/emailCliente"
+            android:layout_width="340dp"
+            android:layout_height="37dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/botaodetexto"
+            android:hint="E-mail*"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:textColor="#425BB4"
+            android:textColorHighlight="#80F1A8F1"
+            android:textColorHint="#60425BB4"
+            app:fontFamily="@font/open_sans"
+            app:layout_constraintBottom_toTopOf="@+id/emailConfirma"
+            app:layout_constraintEnd_toEndOf="@+id/emailConfirma"
+            app:layout_constraintStart_toStartOf="@+id/emailConfirma" />
+
+        <EditText
+            android:id="@+id/emailConfirma"
+            android:layout_width="340dp"
+            android:layout_height="37dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/botaodetexto"
+            android:hint="Confirme seu e-mail*"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:textColor="#425BB4"
+            android:textColorHighlight="#80F1A8F1"
+            android:textColorHint="#60425BB4"
+            app:fontFamily="@font/open_sans"
+            app:layout_constraintBottom_toTopOf="@+id/senhaCliente"
+            app:layout_constraintEnd_toEndOf="@+id/senhaCliente"
+            app:layout_constraintStart_toStartOf="@+id/senhaCliente" />
+
+        <EditText
+            android:id="@+id/senhaCliente"
+            android:layout_width="340dp"
+            android:layout_height="37dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/botaodetexto"
+            android:hint="Senha*"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textColor="#425BB4"
+            android:textColorHighlight="#80F1A8F1"
+            android:textColorHint="#60425BB4"
+            app:fontFamily="@font/open_sans"
+            app:layout_constraintBottom_toTopOf="@+id/senhaConfirma"
+            app:layout_constraintEnd_toEndOf="@+id/senhaConfirma"
+            app:layout_constraintStart_toStartOf="@+id/senhaConfirma" />
+
+        <EditText
+            android:id="@+id/senhaConfirma"
+            android:layout_width="340dp"
+            android:layout_height="37dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/botaodetexto"
+            android:hint="Confirme sua senha*"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textColor="#425BB4"
+            android:textColorHighlight="#80F1A8F1"
+            android:textColorHint="#60425BB4"
+            app:fontFamily="@font/open_sans"
+            app:layout_constraintBottom_toTopOf="@+id/salvarCliente"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/salvarCliente"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="335dp"
+            android:layout_marginLeft="335dp"
+            android:layout_marginEnd="52dp"
+            android:layout_marginRight="52dp"
+            android:layout_marginBottom="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/check" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

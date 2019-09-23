@@ -1,0 +1,4 @@
+#Thu Sep 12 10:40:55 GFT 2019
+base.0=C\:\\Users\\Ms.Charlie\\Documents\\GitHub\\iStetic\\iStetic\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+path.0=classes.dex
+renamed.0=classes.dex

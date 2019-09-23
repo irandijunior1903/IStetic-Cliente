@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ufpb.br.trigger.istetic.ui.homecliente.TelaIncialClienteFragmento"
+        android:label="RT"
+        tools:layout="@layout/fragmento_tela_inicial_cliente" />
+
+    <fragment
+        android:id="@+id/nav_editarinfo"
+        android:name="ufpb.br.trigger.istetic.ui.informacoescliente.InfoClienteFragmento"
+        android:label="RT"
+        tools:layout="@layout/fragmento_editar_info" />
+</navigation>

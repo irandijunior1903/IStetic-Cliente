@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/telaIncialCliente"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-134dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="54dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="317dp"
+            android:layout_marginRight="317dp"
+            android:layout_marginBottom="18dp"
+            app:layout_constraintBottom_toTopOf="@+id/estabelecimento1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/novos" />
+
+        <ImageView
+            android:id="@+id/estabelecimento2"
+            android:layout_width="120dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="82dp"
+            android:layout_marginLeft="82dp"
+            android:layout_marginEnd="52dp"
+            android:layout_marginRight="52dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/estabelecimento1"
+            app:layout_constraintTop_toTopOf="@+id/estabelecimento1"
+            app:srcCompat="@drawable/estabelecimento_2" />
+
+        <ImageView
+            android:id="@+id/estabelecimento3"
+            android:layout_width="120dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="251dp"
+            android:layout_marginRight="251dp"
+            android:layout_marginBottom="199dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView32"
+            app:srcCompat="@drawable/estabelecimento_2" />
+
+        <ImageView
+            android:id="@+id/estabelecimento1"
+            android:layout_width="117dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView30"
+            app:layout_constraintStart_toStartOf="@+id/estabelecimento3"
+            app:layout_constraintTop_toBottomOf="@+id/imageView19"
+            app:srcCompat="@drawable/estabelecimento_1" />
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="70dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="59dp"
+            android:layout_marginLeft="59dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="282dp"
+            android:layout_marginRight="282dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView31"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/estabelecimento1"
+            app:srcCompat="@drawable/lore_ipsum" />
+
+        <ImageView
+            android:id="@+id/imageView31"
+            android:layout_width="57dp"
+            android:layout_height="14dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="29dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView32"
+            app:layout_constraintEnd_toEndOf="@+id/imageView30"
+            app:layout_constraintHorizontal_bias="0.538"
+            app:layout_constraintStart_toStartOf="@+id/imageView30"
+            app:layout_constraintTop_toBottomOf="@+id/imageView30"
+            app:srcCompat="@drawable/ver_horarios" />
+
+        <ImageView
+            android:id="@+id/imageView32"
+            android:layout_width="122dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="251dp"
+            android:layout_marginRight="251dp"
+            android:layout_marginBottom="35dp"
+            app:layout_constraintBottom_toTopOf="@+id/estabelecimento3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView31"
+            app:srcCompat="@drawable/abertos_agora" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

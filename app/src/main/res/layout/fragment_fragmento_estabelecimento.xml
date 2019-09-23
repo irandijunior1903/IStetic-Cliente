@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="Autofill">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans"
+        android:text="PARTE DO ESTABELECIMENTO"
+        android:textColor="@color/corDoTexto"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/endereco">
+
+    </TextView>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/cpf"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:outlineAmbientShadowColor="@color/barraDeStatus"
+        android:textColorHint="@color/colorPrimary"
+        app:errorEnabled="true"
+        app:layout_constraintEnd_toEndOf="@+id/Nome"
+        app:layout_constraintStart_toStartOf="@+id/Nome"
+        app:layout_constraintTop_toBottomOf="@+id/Nome"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editarcpf"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="@font/open_sans"
+            android:hint="CPF/CNPJ"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColor="@color/corDoTexto" />
+        />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/endereco"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:outlineAmbientShadowColor="@color/barraDeStatus"
+        android:textColorHint="@color/colorPrimary"
+        app:errorEnabled="true"
+        app:layout_constraintEnd_toEndOf="@+id/cpf"
+        app:layout_constraintStart_toStartOf="@+id/cpf"
+        app:layout_constraintTop_toBottomOf="@+id/cpf"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editarendereco"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="@font/open_sans"
+            android:hint="Endereço"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColor="@color/corDoTexto" />
+        />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/Nome"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="450dp"
+        android:orientation="vertical"
+        android:outlineAmbientShadowColor="@color/barraDeStatus"
+        android:textColorHint="@color/colorPrimary"
+        app:errorEnabled="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editarnome"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="@font/open_sans"
+            android:hint="Nome"
+            android:inputType="textPersonName"
+            android:singleLine="true"
+            android:textColor="@color/corDoTexto" />
+        />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
