@@ -33,9 +33,28 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/eText2"
         android:layout_marginTop="100dp"
+        android:choiceMode="singleChoice"
+        android:drawSelectorOnTop="false"
+        android:listSelector="@drawable/listselector"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/avancar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="36dp"
+            android:layout_marginRight="36dp"
+            android:layout_marginBottom="30dp"
+            android:clickable="true"
+            android:focusable="auto"
+            android:scaleType="fitCenter"
+            android:scaleX="-1"
+            android:tint="#00FFFFFF"
+            app:backgroundTint="#E91E63"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="?attr/actionModeCloseDrawable" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

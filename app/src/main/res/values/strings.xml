@@ -26,6 +26,38 @@
     <string name="tab_text_2">Estabelecimento</string>
     <string name="title_activity_cadastro_fornecedor">CadastroFornecedor</string>
 
+    <string name="preco">R$ 20,00</string>
+    <string name="servico1">Depilação</string>
+    <string name="servico2">Manicure</string>
+    <string name="servico3">Limpeza de Pele</string>
+    <string name="localizacao">Localização</string>
+    <string name="estabelecimento">Lorem ipsum</string>
+    <string name="aberto">Aberto</string>
+    <string name="informacoes">Informações</string>
+    <string name="preco_total">R$ 40,00</string>
+    <string name="total_selecionado">Total Selecionado:</string>
+    <string name="frase_calendario">Escolha Uma Data De Sua Preferência:</string>
+    <string name="frase_relogio">Escolha um horário:</string>
+    <string name="frase_conclusao_agendamento">Seu agendamento foi concluído com sucesso!
+        Vá para o menu principal, e verifique a sua solicitação!</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim sed
+        faucibus turpis in eu mi bibendum neque egestas.</string>
+    <string name="endereco">Endereço: Rua da Travessa, 512, Centro</string>
+    <string name="atendimento">Atendimento: Seg à Sab, 8:00h-18:00h</string>
+    <string name="frase_conclusao_edicao">Sua edição foi concluída com sucesso!
+        Vá para o menu principal, e verifique a sua solicitação!</string>
+    <string name="telefone">Contato:</string>
+    <string name="numtelefone">(83)99890-4932</string>
+    <string name="horario1">08:00 - 09:00</string>
+    <string name="horario2">09:00 - 10:00</string>
+    <string name="horario3">10:00 - 11:00</string>
+    <string name="horario4">11:00 - 11:30</string>
+    <string name="vaga">1 Vaga(s)</string>
+    <string name="preenchido">Preenchido</string>
+    <string name="data1">24/09/2019</string>
+    <string name="data2">25/09/2019</string>
+
     <string name="frag_a">Fragmento 1 </string>
     <string name="frag_b">Fragmento 2 </string>
     <string name="frag_c">Fragmento 3 </string>

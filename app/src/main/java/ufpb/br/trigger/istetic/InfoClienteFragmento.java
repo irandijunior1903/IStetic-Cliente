@@ -1,4 +1,4 @@
-package ufpb.br.trigger.istetic.ui.informacoescliente;
+package ufpb.br.trigger.istetic;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -10,8 +10,6 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import android.widget.Toast;
-import ufpb.br.trigger.istetic.PerfilCliente;
-import ufpb.br.trigger.istetic.R;
 
 public class InfoClienteFragmento extends Fragment {
 

@@ -1,4 +1,4 @@
-package ufpb.br.trigger.istetic.ui.homecliente;
+package ufpb.br.trigger.istetic;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

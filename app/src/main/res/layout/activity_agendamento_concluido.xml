@@ -31,7 +31,7 @@
         android:layout_marginTop="72dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:text="Seu agendamento foi feito com sucesso, clique no ícone abaixo para voltar ao perfil!"
+        android:text="@string/frase_conclusao_agendamento"
         android:textColor="@color/corDoTexto"
         android:textSize="16sp"
         app:fontFamily="@font/open_sans_semibold"

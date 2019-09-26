@@ -7,13 +7,13 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="ufpb.br.trigger.istetic.ui.homecliente.TelaIncialClienteFragmento"
+        android:name="ufpb.br.trigger.istetic.TelaIncialClienteFragmento"
         android:label="RT"
         tools:layout="@layout/fragmento_tela_inicial_cliente" />
 
     <fragment
         android:id="@+id/nav_editarinfo"
-        android:name="ufpb.br.trigger.istetic.ui.informacoescliente.InfoClienteFragmento"
+        android:name="ufpb.br.trigger.istetic.InfoClienteFragmento"
         android:label="RT"
         tools:layout="@layout/fragmento_editar_info" />
 </navigation>

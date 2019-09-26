@@ -38,7 +38,7 @@ public class Login extends AppCompatActivity {
                     Intent cliente = new Intent(Login.this, PerfilCliente.class);
                     startActivity(cliente);
                     finish();
-                    alert("Logado com sucesso");
+                    alert("Logado com sucesso, bem vindo(a)!");
 
                 }else alert("Login incorreto!");
 

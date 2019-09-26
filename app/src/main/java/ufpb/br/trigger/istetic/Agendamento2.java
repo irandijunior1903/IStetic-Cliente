@@ -5,6 +5,7 @@ import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -54,6 +55,7 @@ public class Agendamento2 extends AppCompatActivity {
             public void onClick(View view) {
                 if(favorito.getDrawable().getConstantState().equals(heart.getConstantState())) {
                     favorito.setImageDrawable(getResources().getDrawable(R.drawable.heart));
+                    alert("Você avaliou o estabelecimento :D");
                 }else if(favorito.getDrawable().getConstantState().equals(heartVermelho.getConstantState())){
                     favorito.setImageDrawable(getResources().getDrawable(R.drawable.ic_button_favorito));
                 }
@@ -68,5 +70,9 @@ public class Agendamento2 extends AppCompatActivity {
             }
         });
 
+    }
+
+    private void alert(String s) {
+        Toast.makeText(this, s, Toast.LENGTH_LONG).show();
     }
 }

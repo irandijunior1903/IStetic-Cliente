@@ -12,7 +12,7 @@
         android:background="@drawable/background">
 
         <ImageView
-            android:id="@+id/imageView16"
+            android:id="@+id/garota"
             android:layout_width="109dp"
             android:layout_height="109dp"
             android:layout_marginTop="60dp"
@@ -32,7 +32,7 @@
             app:layout_constraintBottom_toTopOf="@+id/imageView25"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView16"
+            app:layout_constraintTop_toBottomOf="@+id/garota"
             app:srcCompat="@drawable/logo_menor" />
 
         <ImageView

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:2:1-112:12
-INJECTED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:2:1-112:12
-INJECTED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:2:1-112:12
-INJECTED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:2:1-112:12
+ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:2:1-112:12
+INJECTED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:2:1-112:12
+INJECTED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:2:1-112:12
+INJECTED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:2:1-112:12
 MERGED from [androidx.navigation:navigation-ui:2.0.0-rc02] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\23d1dd92d423794154264dc3120347e1\jetified-navigation-ui-2.0.0-rc02\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\cb634fe4b4d1fdfcd5255e485d30a0c1\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.0.1] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\12efabf5bc3ac60c4df727f19793c11b\appcompat-1.0.1\AndroidManifest.xml:17:1-22:12
@@ -49,31 +49,31 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\irand\.gradle\ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\9093771a98b01557e81860f4122d7892\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\7ec682ca46f5c90ea9a9e0cba0c0310a\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\d4ef17d609918d2a5f5a86d1ea02678f\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:2:1-112:12
-INJECTED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:2:1-112:12
-INJECTED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:2:1-112:12
+INJECTED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:2:1-112:12
+INJECTED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:2:1-112:12
+INJECTED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:2:1-112:12
 	package
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:4:5-38
-		INJECTED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:4:5-38
+		INJECTED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:2:1-112:12
-		INJECTED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:2:1-112:12
+		INJECTED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:2:1-112:12
-		INJECTED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:2:1-112:12
+		INJECTED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:11:5-79
+ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:11:22-76
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:11:22-76
 application
-ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:13:5-110:19
+ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:13:5-110:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\cb634fe4b4d1fdfcd5255e485d30a0c1\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\cb634fe4b4d1fdfcd5255e485d30a0c1\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\8392647ca9531c13a8f0d6b7ad086e7e\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
@@ -97,179 +97,179 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\irand\.gradle\
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.0.0] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\2ffb88316df49107418be0872d7babe4\core-1.0.0\AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:18:9-35
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:18:9-35
 	android:label
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:16:9-41
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:16:9-41
 	tools:ignore
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:20:9-48
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:20:9-48
 	android:roundIcon
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:17:9-54
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:17:9-54
 	android:icon
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:15:9-43
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:15:9-43
 	android:allowBackup
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:14:9-35
 	android:theme
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:19:9-40
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:19:9-40
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:30:9-32:55
+ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:30:9-32:55
 	android:value
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:32:13-52
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:32:13-52
 	android:name
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:31:13-58
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:31:13-58
 activity#ufpb.br.trigger.istetic.Maps
-ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:34:9-36:68
+ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:34:9-36:68
 	android:label
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:36:13-56
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:36:13-56
 	android:name
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:35:13-33
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:35:13-33
 activity#ufpb.br.trigger.istetic.PerfilCliente
-ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:37:9-40:59
+ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:37:9-40:59
 	android:label
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:39:13-66
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:39:13-66
 	android:theme
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:40:13-56
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:40:13-56
 	android:name
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:38:13-42
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:38:13-42
 activity#ufpb.br.trigger.istetic.CadastroFornecedor
-ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:41:9-44:47
+ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:41:9-44:47
 	android:label
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:43:13-71
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:43:13-71
 	android:theme
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:44:13-44
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:44:13-44
 	android:name
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:42:13-47
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:42:13-47
 activity#ufpb.br.trigger.istetic.PesquisarEstabelecimentos
-ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:45:9-47:47
+ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:45:9-47:47
 	android:theme
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:47:13-44
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:47:13-44
 	android:name
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:46:13-54
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:46:13-54
 activity#ufpb.br.trigger.istetic.PesquisarServicos
-ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:48:9-50:47
+ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:48:9-50:47
 	android:theme
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:50:13-44
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:50:13-44
 	android:name
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:49:13-46
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:49:13-46
 activity#ufpb.br.trigger.istetic.Agendamento1
-ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:51:9-53:47
+ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:51:9-53:47
 	android:theme
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:53:13-44
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:53:13-44
 	android:name
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:52:13-41
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:52:13-41
 activity#ufpb.br.trigger.istetic.Agendamento2
-ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:54:9-56:47
+ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:54:9-56:47
 	android:theme
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:56:13-44
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:56:13-44
 	android:name
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:55:13-41
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:55:13-41
 activity#ufpb.br.trigger.istetic.AgendamentoDia
-ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:57:9-59:47
+ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:57:9-59:47
 	android:theme
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:59:13-44
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:59:13-44
 	android:name
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:58:13-43
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:58:13-43
 activity#ufpb.br.trigger.istetic.AgendamentoHora
-ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:60:9-62:47
+ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:60:9-62:47
 	android:theme
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:62:13-44
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:62:13-44
 	android:name
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:61:13-44
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:61:13-44
 activity#ufpb.br.trigger.istetic.AgendamentoConcluido
-ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:63:9-65:47
+ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:63:9-65:47
 	android:theme
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:65:13-44
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:65:13-44
 	android:name
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:64:13-49
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:64:13-49
 activity#ufpb.br.trigger.istetic.InformacoesEstabelecimento
-ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:66:9-68:47
+ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:66:9-68:47
 	android:theme
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:68:13-44
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:68:13-44
 	android:name
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:67:13-55
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:67:13-55
 activity#ufpb.br.trigger.istetic.ListaAgendamento
-ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:69:9-71:47
+ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:69:9-71:47
 	android:theme
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:71:13-44
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:71:13-44
 	android:name
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:70:13-45
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:70:13-45
 activity#ufpb.br.trigger.istetic.EditarDia
-ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:72:9-74:47
+ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:72:9-74:47
 	android:theme
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:74:13-44
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:74:13-44
 	android:name
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:73:13-38
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:73:13-38
 activity#ufpb.br.trigger.istetic.EditarHora
-ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:75:9-77:47
+ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:75:9-77:47
 	android:theme
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:77:13-44
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:77:13-44
 	android:name
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:76:13-39
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:76:13-39
 activity#ufpb.br.trigger.istetic.AgendamentoRemarcado
-ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:78:9-80:47
+ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:78:9-80:47
 	android:theme
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:80:13-44
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:80:13-44
 	android:name
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:79:13-49
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:79:13-49
 activity#ufpb.br.trigger.istetic.CadastrarCliente
-ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:81:9-83:49
+ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:81:9-83:49
 	android:theme
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:83:13-46
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:83:13-46
 	android:name
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:82:13-45
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:82:13-45
 activity#ufpb.br.trigger.istetic.BoasVindas1
-ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:84:9-86:49
+ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:84:9-86:49
 	android:theme
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:86:13-46
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:86:13-46
 	android:name
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:85:13-40
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:85:13-40
 activity#ufpb.br.trigger.istetic.BoasVindas2
-ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:87:9-89:49
+ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:87:9-89:49
 	android:theme
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:89:13-46
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:89:13-46
 	android:name
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:88:13-40
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:88:13-40
 activity#ufpb.br.trigger.istetic.BoasVindas3
-ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:90:9-92:49
+ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:90:9-92:49
 	android:theme
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:92:13-46
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:92:13-46
 	android:name
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:91:13-40
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:91:13-40
 activity#ufpb.br.trigger.istetic.TelaInicialAdm
-ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:93:9-95:59
+ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:93:9-95:59
 	android:theme
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:95:13-56
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:95:13-56
 	android:name
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:94:13-43
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:94:13-43
 activity#ufpb.br.trigger.istetic.Login
-ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:96:9-98:49
+ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:96:9-98:49
 	android:theme
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:98:13-46
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:98:13-46
 	android:name
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:97:13-34
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:97:13-34
 activity#ufpb.br.trigger.istetic.Splash
-ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:99:9-105:20
+ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:99:9-105:20
 	android:name
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:99:19-41
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:99:19-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:100:13-104:29
+ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:100:13-104:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:101:17-69
+ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:101:17-69
 	android:name
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:101:25-66
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:101:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:103:17-77
+ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:103:17-77
 	android:name
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:103:27-74
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:103:27-74
 meta-data#preloaded_fonts
-ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:107:9-109:57
+ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:107:9-109:57
 	android:resource
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:109:13-54
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:109:13-54
 	android:name
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml:108:13-43
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml:108:13-43
 uses-sdk
-INJECTED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml
 MERGED from [androidx.navigation:navigation-ui:2.0.0-rc02] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\23d1dd92d423794154264dc3120347e1\jetified-navigation-ui-2.0.0-rc02\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-ui:2.0.0-rc02] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\23d1dd92d423794154264dc3120347e1\jetified-navigation-ui-2.0.0-rc02\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\cb634fe4b4d1fdfcd5255e485d30a0c1\material-1.0.0\AndroidManifest.xml:20:5-44
@@ -360,16 +360,16 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\irand\.gradle\caches\transform
 MERGED from [androidx.print:print:1.0.0] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\7ec682ca46f5c90ea9a9e0cba0c0310a\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\d4ef17d609918d2a5f5a86d1ea02678f\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\d4ef17d609918d2a5f5a86d1ea02678f\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\irand\Downloads\iStetic_cliente\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\irand\Documents\GitHub\IStetic-Cliente\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\irand\.gradle\caches\transforms-2\files-2.1\1fcdcacc43787ff1e43648ee69f912ba\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:5-79
 	android:name

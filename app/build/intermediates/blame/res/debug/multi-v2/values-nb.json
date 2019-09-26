@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\irand\\Downloads\\iStetic_cliente\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-nb\\values-nb.xml",
+            "outputFile": "C:\\Users\\irand\\Documents\\GitHub\\IStetic-Cliente\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-nb\\values-nb.xml",
             "map": [
                 {
                     "source": "C:\\Users\\irand\\.gradle\\caches\\transforms-2\\files-2.1\\77dec35a51b4530dcf8089b2147454c3\\jetified-play-services-basement-16.0.1\\res\\values-nb\\values.xml",

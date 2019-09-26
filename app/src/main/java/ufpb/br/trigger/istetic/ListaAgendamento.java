@@ -78,7 +78,7 @@ public class ListaAgendamento extends AppCompatActivity {
             public void onClick(View view) {
                 Intent cancelar = new Intent(ListaAgendamento.this, PerfilCliente.class);
                 Context contexto = getApplicationContext();
-                String texto = "Você cancelou o agendamento";
+                String texto = "Você cancelou o agendamento, o estabelecimento será notificado!";
                 int duracao = Toast.LENGTH_SHORT;
 
                 Toast toast = Toast.makeText(contexto, texto, duracao);

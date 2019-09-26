@@ -131,6 +131,7 @@ public class Agendamento1 extends AppCompatActivity {
             public void onClick(View view) {
                 if(favorito.getDrawable().getConstantState().equals(heart.getConstantState())) {
                     favorito.setImageDrawable(getResources().getDrawable(R.drawable.heart));
+                    alert("Você avaliou o estabelecimento :D");
                 }else if(favorito.getDrawable().getConstantState().equals(heartVermelho.getConstantState())){
                     favorito.setImageDrawable(getResources().getDrawable(R.drawable.ic_button_favorito));
                 }
@@ -144,5 +145,9 @@ public class Agendamento1 extends AppCompatActivity {
                 startActivity(mapa);
             }
         });
+    }
+
+    private void alert(String s) {
+        Toast.makeText(this, s, Toast.LENGTH_LONG).show();
     }
 }
